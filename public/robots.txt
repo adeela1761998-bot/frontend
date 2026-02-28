@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /admin-panel
+Disallow: /checkout
+Disallow: /cart
+Disallow: /login
+Disallow: /api/
+Disallow: /uploads/
+
+# Allow search engines
+Allow: /
+
+# Sitemap
+Sitemap: https://gnsons.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1

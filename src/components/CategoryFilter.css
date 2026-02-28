@@ -1,0 +1,60 @@
+/* ========================================
+   PREMIUM LUXURY CATEGORY FILTER
+======================================== */
+
+.filter-group {
+  background: linear-gradient(145deg, #0f172a, #1e293b);
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: 0.4s ease;
+}
+
+.filter-group:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.8);
+}
+
+.filter-group h4 {
+  color: #f8fafc;
+  font-size: 20px;
+  margin-bottom: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.filter-group ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.filter-group li {
+  margin-bottom: 12px;
+}
+
+.filter-group a {
+  display: block;
+  padding: 10px 14px;
+  text-decoration: none;
+  color: #cbd5e1;
+  border-radius: 10px;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.03);
+  transition: 0.3s ease;
+}
+
+.filter-group a:hover {
+  background: linear-gradient(135deg, #6366f1, #9333ea);
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.filter-group a.active {
+  background: linear-gradient(135deg, #f59e0b, #f97316);
+  color: #fff;
+  box-shadow: 0 5px 15px rgba(249, 115, 22, 0.6);
+}
